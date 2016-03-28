@@ -50,16 +50,16 @@
             <label for="country">Country</label>
             <select id="country" name="user_country">
             
-              <option>Select One</option>
-              <option>Canada</option>
-              <option>United States</option>
+              <option value=”” disabled selected hidden>Select One</option>
+              <option value="canada">Canada</option>
+              <option value="united_states">United States</option>
 
             </select>
 
             <label for="province">Province / State</label>
             <select id="province" name="user_province">
             
-              <option>Select One</option>
+              <option value=”” disabled selected hidden>Select One</option>
               <optgroup label="Canada">
                 <option value="alberta">Alberta (AB)</option>
                 <option value="british_columbia">British Columbia (BC)</option>
@@ -149,11 +149,11 @@
 
             <label class="selection">Select the newsletters you would like to recieve</label>
 
-            <input type="checkbox" id="html_news" value="html_news" name="html_news"><label class="check" for="html_news">HTML News</label>
+            <input type="checkbox" id="html_news" value="html_news" name="newsletter"><label class="check" for="html_news">HTML News</label>
             <br>   
-            <input type="checkbox" id="css_news" value="css_news" name="css_news"><label class="check" for="css_news">CSS News</label>
+            <input type="checkbox" id="css_news" value="css_news" name="newsletter"><label class="check" for="css_news">CSS News</label>
             <br>
-            <input type="checkbox" id="javascript_news" value="javascript_news" name="javascript_news"><label class="check" for="javascript_news">Javascript News</label>
+            <input type="checkbox" id="javascript_news" value="javascript_news" name="newsletter"><label class="check" for="javascript_news">Javascript News</label>
             <br><br>
 
             <label class="selection">Newsletter format</label>
